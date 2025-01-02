@@ -1,0 +1,74 @@
+body{
+    margin: 0; 
+  height: 100vh;
+  background-image: url('./Aesthetic\ Ghibli\ Scene.jpeg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+}
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8; /* Light background */
+  }
+  
+  .container {
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .yes-btn, .no-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .yes-btn {
+    background-color: #e6ffee;
+    color: #008000;
+    border-color: #008000;
+  }
+  
+  .no-btn {
+    background-color: #ffeeee;
+    color: #ff0000;
+    border-color: #ff0000;
+  }
+  
+  .yes-btn:hover {
+    background-color: #ccffcc;
+  }
+  
+  .no-btn:hover {
+    background-color: #ffcccc;
+  }
+  
